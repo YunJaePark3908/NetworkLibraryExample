@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_okHttp3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:text="OKHttp3">
+    </Button>
+    <Button
+        android:id="@+id/bt_retrofit2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_okHttp3"
+        android:textAllCaps="false"
+        android:text="Retrofit2">
+    </Button>
+    <Button
+        android:id="@+id/bt_volley"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_retrofit2"
+        android:textAllCaps="false"
+        android:text="Volley">
+    </Button>
+    <Button
+        android:id="@+id/bt_android_async_http"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_volley"
+        android:textAllCaps="false"
+        android:text="Android Async Http">
+    </Button>
+    <Button
+        android:id="@+id/bt_fast_android_networking"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_android_async_http"
+        android:textAllCaps="false"
+        android:text="Fast Android Networking">
+    </Button>
+
+
+</RelativeLayout>
